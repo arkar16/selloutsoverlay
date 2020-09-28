@@ -154,7 +154,7 @@
                 WsSubscribers.init(49322, true);
                 WsSubscribers.subscribe("game", "update_state", (d) => {
                     $(".scorebug .team.left .score").text(d[ 'game'][ 'teams'][0][ 'score']);
-                    $(".scorebug .team.right .score").text(d[ 'game'][ 'teams'][1][ 'score']);
+                    $(".scorebug .team.right .score").text(d[ 'game'][ 'teams'][1][ 'scre']);
                 });
             });
 
